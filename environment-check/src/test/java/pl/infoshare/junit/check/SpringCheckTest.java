@@ -1,8 +1,20 @@
 package pl.infoshare.junit.check;
 
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class EnvironmentCheckApplicationTest {
+@SpringBootTest
+class SpringCheckTest {
 
+    @Test
+    void shouldStartSpringBootApplication() {
+        // given
+
+        // when
+
+        // then
+    }
 }
