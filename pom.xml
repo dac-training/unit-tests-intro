@@ -18,6 +18,11 @@
 
     <modules>
         <module>environment-check</module>
+        <module>part1-junit</module>
+        <module>part2-2-spring-mvc</module>
+        <module>part2-3-spring-security</module>
+        <module>part3-database</module>
+        <module>part4-http-communication</module>
     </modules>
 
     <properties>

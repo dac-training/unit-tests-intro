@@ -1,0 +1,30 @@
+package pl.infoshare.junit5.guitars;
+
+import org.springframework.stereotype.Component;
+import pl.infoshare.junit5.GuitarNotAvailableException;
+import pl.infoshare.junit5.guitars.client.AddGuitarRequest;
+import pl.infoshare.junit5.guitars.client.Guitar;
+import pl.infoshare.junit5.guitars.client.GuitarShopClient;
+
+@Component
+public class GuitarPurchaseService {
+
+    private final GuitarShopClient guitarShopClient;
+
+    public GuitarPurchaseService(GuitarShopClient guitarShopClient) {
+        this.guitarShopClient = guitarShopClient;
+    }
+
+    public void purchase(String id) {
+        var guitar = guitarShopClient.getGuitars()
+                .stream()
+                .filter(g -> g.getId().equals(id))
+                .findFirst()
+                .filter(Guitar::isAvailable)
+                .orElseThrow(() -> new GuitarNotAvailableException(id));
+
+        var cart = guitarShopClient.createCart();
+        guitarShopClient.addGuitarToCart(cart.getId(), new AddGuitarRequest(guitar.getId(), 1));
+        guitarShopClient.purchaseCart(cart.getId());
+    }
+}
