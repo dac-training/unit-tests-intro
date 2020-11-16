@@ -1,4 +1,4 @@
-package pl.infoshare.junit5._19_summary.model;
+package pl.infoshare.junit5._6_exercise_bonus.model;
 
 public class IncorrectSentenceException extends RuntimeException {
 

@@ -5,5 +5,5 @@ package pl.infoshare.junit5._16_exercise;
  * metody testowej oznaczonego adnotacją @Random.
  * Wersja trudniejsza: przy użyciu adnotacji przekaż argumenty min i max, które określą zakres losowania.
  */
-public class Exercise15 {
+public class Exercise16 {
 }

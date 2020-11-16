@@ -1,6 +1,6 @@
-package pl.infoshare.junit5._19_summary.sentence;
+package pl.infoshare.junit5._6_exercise_bonus.sentence;
 
-import pl.infoshare.junit5._19_summary.model.IncorrectSentenceException;
+import pl.infoshare.junit5._6_exercise_bonus.model.IncorrectSentenceException;
 
 import java.util.Arrays;
 import java.util.List;
