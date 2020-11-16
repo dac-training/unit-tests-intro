@@ -6,6 +6,7 @@ import java.util.Optional;
 
 /**
  * Ćwiczenie 2. Napisz testy dla poniższej klasy.
+ * Dodatkowo upewnij się, że wykonanie medoty extractNextThreeWords nie zajmuje więcej czasu niż jedna sekunda
  */
 public class WordExtractor {
 
