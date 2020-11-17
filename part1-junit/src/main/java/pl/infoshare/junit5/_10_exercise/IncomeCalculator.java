@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 /**
  * Ćwiczenie 9. Napisz test parametryzowany, który wczyta plik incomes.csv i na jego podstawie dostarczy wartości do testów.
- * TIP: Istnieje specjalna adnotacja, która może ułatwić Ci to zadanie.
+ * TIP: Wykorzystaj adnotację CsvFileSource.
  */
 public class IncomeCalculator {
 
