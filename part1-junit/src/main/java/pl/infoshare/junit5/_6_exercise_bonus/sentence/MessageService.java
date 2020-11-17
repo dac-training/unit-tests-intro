@@ -18,7 +18,7 @@ public class MessageService {
     }
 
     public void saveShortMessage(List<String> sentences) {
-        var censoredMessage = sentences.stream()
+        String censoredMessage = sentences.stream()
                 .map(sentenceCensor::censor)
                 .collect(Collectors.joining(" "));
 

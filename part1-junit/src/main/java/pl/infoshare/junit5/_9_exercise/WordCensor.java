@@ -3,7 +3,7 @@ package pl.infoshare.junit5._9_exercise;
 import java.util.List;
 
 /**
- * Ćwiczenie 8. Napisz test parametryzowany, który sprawdzi zachowanie klasy dla różnych wyrazów
+ * Ćwiczenie 9. Napisz test parametryzowany, który sprawdzi zachowanie klasy dla różnych wyrazów
  */
 public class WordCensor {
 

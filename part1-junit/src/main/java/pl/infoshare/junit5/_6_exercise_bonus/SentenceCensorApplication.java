@@ -17,7 +17,7 @@ public class SentenceCensorApplication {
     public static void main(String[] args) {
         var sentences = List.of(
                 "First sentence without any words to censor.",
-                "Second sentence with single word to censor: gra.",
+                "Second sentence with single word to censor: gra.", //Second sentence with single word to censor: ***.
                 "Kolejne zdanie gdzie slowo wizja oraz slowo gra podlegaja cenzurze."
         );
 

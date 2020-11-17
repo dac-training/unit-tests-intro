@@ -8,7 +8,7 @@ public class TranslationProperties {
 
     private final String defaultLanguage;
 
-    public TranslationProperties(@Value("translations.default") String defaultLanguage) {
+    public TranslationProperties(@Value("${translations.default}") String defaultLanguage) {
         this.defaultLanguage = defaultLanguage;
     }
 

@@ -1,7 +1,9 @@
 package pl.infoshare.junit5._1_exercise;
 
 public enum Gender {
-    MALE("mr."), FEMALE("mrs.");
+    MALE("mr."),
+    FEMALE("mrs."),
+    EXAMPLE("ex");
 
     private final String prefix;
 
