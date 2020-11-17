@@ -5,6 +5,10 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import java.math.BigDecimal;
 
+/**
+ * Napisz test integracyjny, który sprawdzi poprawność konwersji z metra na kilometr
+ * Part II: Napisz test parametryzowany, który sprawdzi poprawność konwersji dla wszystkich wspieranych jednostek
+ */
 @Component
 public class MeasureUnitService {
 

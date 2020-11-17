@@ -4,6 +4,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+/**
+ * Napisz test integracyjny, który sprawdzi czy nowa translacja została zapisana poprawnie. Z racji tego, że repozytorium
+ * nie zostało jeszcze zaimplementowane będziesz musiał je zamockować.
+ */
 @Component
 public class TranslationService {
 
