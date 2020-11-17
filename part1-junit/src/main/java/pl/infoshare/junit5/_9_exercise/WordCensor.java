@@ -7,11 +7,7 @@ import java.util.List;
  */
 public class WordCensor {
 
-    private final List<String> wordsToCensor;
-
-    public WordCensor(List<String> wordsToCensor) {
-        this.wordsToCensor = wordsToCensor;
-    }
+    private final List<String> wordsToCensor = List.of("desk", "trap", "television", "light", "one");
 
     public String censorWord(String word) {
         if (wordsToCensor.contains(word)) {
