@@ -20,12 +20,3 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
-
-jar {
-    archiveBaseName = 'migration-tool'
-    archiveVersion = '1.0.0'
-
-    manifest {
-        attributes 'Main-Class': 'eu.migration.Main'
-    }
-}
