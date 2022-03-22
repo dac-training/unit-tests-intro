@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group = 'digital.dac'
+version = '1.0.0'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+    testImplementation 'org.mockito:mockito-core:4.3.1'
+    testImplementation 'org.mockito:mockito-junit-jupiter:4.4.0'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+jar {
+    archiveBaseName = 'migration-tool'
+    archiveVersion = '1.0.0'
+
+    manifest {
+        attributes 'Main-Class': 'eu.migration.Main'
+    }
+}
