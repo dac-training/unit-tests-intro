@@ -1,6 +1,6 @@
-package digital.dac.junit5._6_exercise_bonus.sentence;
+package digital.dac.junit5._6_exercise.sentence;
 
-import digital.dac.junit5._6_exercise_bonus.model.IncorrectSentenceException;
+import digital.dac.junit5._6_exercise.model.IncorrectSentenceException;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package digital.dac.junit5._6_exercise_bonus.sentence;
+package digital.dac.junit5._6_exercise.sentence;
 
 public class SentenceValidator {
 

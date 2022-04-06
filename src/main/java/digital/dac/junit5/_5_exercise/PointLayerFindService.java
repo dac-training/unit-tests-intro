@@ -1,6 +1,6 @@
-package digital.dac.junit5._6_exercise;
+package digital.dac.junit5._5_exercise;
 
-import digital.dac.junit5._6_exercise.model.Point;
+import digital.dac.junit5._5_exercise.model.Point;
 
 public class PointLayerFindService {
 

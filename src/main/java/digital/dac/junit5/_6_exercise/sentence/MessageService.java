@@ -1,8 +1,8 @@
-package digital.dac.junit5._6_exercise_bonus.sentence;
+package digital.dac.junit5._6_exercise.sentence;
 
-import digital.dac.junit5._6_exercise_bonus.model.ShortMessage;
-import digital.dac.junit5._6_exercise_bonus.model.MessageSaveException;
-import digital.dac.junit5._6_exercise_bonus.sentence.repository.MessageRepository;
+import digital.dac.junit5._6_exercise.model.ShortMessage;
+import digital.dac.junit5._6_exercise.model.MessageSaveException;
+import digital.dac.junit5._6_exercise.sentence.repository.MessageRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,10 +1,10 @@
-package digital.dac.junit5._6_exercise_bonus;
+package digital.dac.junit5._6_exercise;
 
 
-import digital.dac.junit5._6_exercise_bonus.sentence.MessageService;
-import digital.dac.junit5._6_exercise_bonus.sentence.SentenceCensor;
-import digital.dac.junit5._6_exercise_bonus.sentence.SentenceValidator;
-import digital.dac.junit5._6_exercise_bonus.sentence.repository.NoOpMessageRepository;
+import digital.dac.junit5._6_exercise.sentence.MessageService;
+import digital.dac.junit5._6_exercise.sentence.SentenceCensor;
+import digital.dac.junit5._6_exercise.sentence.SentenceValidator;
+import digital.dac.junit5._6_exercise.sentence.repository.NoOpMessageRepository;
 
 import java.util.List;
 

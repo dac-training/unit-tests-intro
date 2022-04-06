@@ -1,4 +1,4 @@
-package digital.dac.junit5._4_exercise;
+package digital.dac.junit5._3_exercise;
 
 public class SeriesTile {
 

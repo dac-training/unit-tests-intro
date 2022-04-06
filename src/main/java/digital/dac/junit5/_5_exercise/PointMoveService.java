@@ -1,9 +1,9 @@
-package digital.dac.junit5._6_exercise;
+package digital.dac.junit5._5_exercise;
 
-import digital.dac.junit5._6_exercise.model.Layer;
-import digital.dac.junit5._6_exercise.model.Point;
-import digital.dac.junit5._6_exercise.model.PointCannotBeMovedException;
-import digital.dac.junit5._6_exercise.model.PointValidationException;
+import digital.dac.junit5._5_exercise.model.Layer;
+import digital.dac.junit5._5_exercise.model.Point;
+import digital.dac.junit5._5_exercise.model.PointCannotBeMovedException;
+import digital.dac.junit5._5_exercise.model.PointValidationException;
 
 /**
  * Ćwiczenie 6. Napisz testy dla poniższej klasy wykorzystując bibliotekę Mockito.
