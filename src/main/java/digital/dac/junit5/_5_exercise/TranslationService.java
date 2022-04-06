@@ -13,11 +13,12 @@ public class TranslationService {
         this.translationProvider = translationProvider;
     }
 
-    public String translate(String word, Locale locale, String fallback) {
+    public TranslatedWord translate(String word, Locale locale, String fallback) {
         try {
-            return translationProvider.getTranslation(word, locale);
+            var translation = translationProvider.getTranslation(word, locale);
+            return new TranslatedWord(word, translation);
         } catch (TranslationNotFoundException ex) {
-            return fallback;
+            return new TranslatedWord(word, fallback);
         }
     }
 }

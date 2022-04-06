@@ -6,4 +6,6 @@ public interface TranslationProvider {
 
     String getTranslation(String word, Locale locale);
 
+
+
 }
